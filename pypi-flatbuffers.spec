@@ -4,7 +4,7 @@
 #
 Name     : pypi-flatbuffers
 Version  : 23.3.3
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/b9/58/6832a92830c8055d81935bfa4da4ebd83b480f799cd47c75f5f369257995/flatbuffers-23.3.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b9/58/6832a92830c8055d81935bfa4da4ebd83b480f799cd47c75f5f369257995/flatbuffers-23.3.3.tar.gz
 Summary  : The FlatBuffers serialization format for Python
@@ -51,7 +51,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1678476745
+export SOURCE_DATE_EPOCH=1678756746
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
