@@ -1,5 +1,5 @@
 PKG_NAME := pypi-flatbuffers
-URL = https://files.pythonhosted.org/packages/3e/1c/0875be8253b3bb245ee2fa97f645d7dd4d51c763b3169529ae1558d879ba/flatbuffers-24.3.6.tar.gz
+URL = https://files.pythonhosted.org/packages/e7/75/b09ca56e5f0e0b04279a6b5ea756f578fe3d46be4a884a0e2fe322877351/flatbuffers-24.3.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

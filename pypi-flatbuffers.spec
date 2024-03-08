@@ -6,10 +6,10 @@
 # autospec commit: 1ab68ca
 #
 Name     : pypi-flatbuffers
-Version  : 24.3.6
-Release  : 12
-URL      : https://files.pythonhosted.org/packages/3e/1c/0875be8253b3bb245ee2fa97f645d7dd4d51c763b3169529ae1558d879ba/flatbuffers-24.3.6.tar.gz
-Source0  : https://files.pythonhosted.org/packages/3e/1c/0875be8253b3bb245ee2fa97f645d7dd4d51c763b3169529ae1558d879ba/flatbuffers-24.3.6.tar.gz
+Version  : 24.3.7
+Release  : 13
+URL      : https://files.pythonhosted.org/packages/e7/75/b09ca56e5f0e0b04279a6b5ea756f578fe3d46be4a884a0e2fe322877351/flatbuffers-24.3.7.tar.gz
+Source0  : https://files.pythonhosted.org/packages/e7/75/b09ca56e5f0e0b04279a6b5ea756f578fe3d46be4a884a0e2fe322877351/flatbuffers-24.3.7.tar.gz
 Summary  : The FlatBuffers serialization format for Python
 Group    : Development/Tools
 License  : Apache-2.0
@@ -43,10 +43,10 @@ python3 components for the pypi-flatbuffers package.
 
 
 %prep
-%setup -q -n flatbuffers-24.3.6
-cd %{_builddir}/flatbuffers-24.3.6
+%setup -q -n flatbuffers-24.3.7
+cd %{_builddir}/flatbuffers-24.3.7
 pushd ..
-cp -a flatbuffers-24.3.6 buildavx2
+cp -a flatbuffers-24.3.7 buildavx2
 popd
 
 %build
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1709826648
+export SOURCE_DATE_EPOCH=1709913561
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
